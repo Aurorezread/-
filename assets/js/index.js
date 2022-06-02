@@ -43,3 +43,8 @@ $('#usrBack').on('click', ()=>{
             location.href = '/login.html'
         })
 })
+
+// 修改发布文章不跳转问题
+function change(){
+    $('#change').attr("class",'layui-this').next().attr("class",'')
+}
